@@ -1878,11 +1878,11 @@
 
   ## Null-terminated Unicode string of the firmware vendor name that is the default name filled into the EFI System Table.
   # @Prompt Firmware vendor.
-  gEfiMdeModulePkgTokenSpaceGuid.PcdFirmwareVendor|L"EDK II"|VOID*|0x00010050
+  gEfiMdeModulePkgTokenSpaceGuid.PcdFirmwareVendor|L"American Megatrends"|VOID*|0x00010050
 
   ## Firmware revision that is the default revision filled into the EFI System Table.
   # @Prompt Firmware revision.
-  gEfiMdeModulePkgTokenSpaceGuid.PcdFirmwareRevision|0x00010000|UINT32|0x00010051
+  gEfiMdeModulePkgTokenSpaceGuid.PcdFirmwareRevision|0x0005001A|UINT32|0x00010051
 
   ## Null-terminated Unicode string that describes the firmware version.
   # @Prompt Firmware version string.
@@ -2376,3 +2376,4 @@
 
 [UserExtensions.TianoCore."ExtraFiles"]
   MdeModulePkgExtra.uni
+
